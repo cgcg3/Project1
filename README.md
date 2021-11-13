@@ -77,8 +77,12 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 ###### Update the metricbeat-configuration.yml file to include the ELK private IP 
 ###### Run the playbook, and navigate to http://104.41.155.230:5601 to check that the installation worked as expected.
 ##### TODO: Answer the following questions to fill in the blanks:
-##### Which file is the playbook? Where do you copy it? filebeat-playbook.yml; /etc/ansible/roles
-##### Which file do you update to make Ansible run the playbook on a specific machine? /etc/ansible/hosts
-##### How do I specify which machine to install the ELK server on versus which to install Filebeat on? Create separate groups to specify. One named “webservers” the other named “elk”
-##### _Which URL do you navigate to in order to check that the ELK server is running? http://104.41.155.230:5601/app/kibana
+##### Which file is the playbook? Where do you copy it? filebeat-playbook.yml; 
+###### /etc/ansible/roles
+##### Which file do you update to make Ansible run the playbook on a specific machine? 
+###### /etc/ansible/hosts
+##### How do I specify which machine to install the ELK server on versus which to install Filebeat on? 
+###### Create separate groups to specify. One named “webservers” the other named “elk”
+##### Which URL do you navigate to in order to check that the ELK server is running? 
+###### http://104.41.155.230:5601/app/kibana
 
